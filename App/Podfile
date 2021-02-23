@@ -1,0 +1,31 @@
+# Uncomment the next line to define a global platform for your project
+platform :ios, '14.0'
+
+use_frameworks!
+
+workspace 'Modularization'
+
+target 'NewsApp' do
+  # Pods for NewsApp
+
+end
+
+target 'Base' do
+project '../Base/Base'
+ 
+end
+
+target 'About' do
+project '../About/About'
+ 
+end
+
+target 'Article' do
+project '../Article/Article'
+ 
+end
+
+target 'Favorite' do
+project '../Favorite/Favorite'
+ 
+end
